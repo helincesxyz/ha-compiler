@@ -65,6 +65,7 @@ gcc -o parser lex.yy.c hw.tab.c -lfl
 
 ## Structure
 
+...
 ha-compiler/
 ├── README.md
 ├── scanner/
@@ -75,7 +76,7 @@ ha-compiler/
 ├── codegen/                # (planned — .ha → Home Assistant YAML)
 └── examples/
     └── my-apartment.ha     # Real automations for my apartment
-
+...
 
 ---
 
