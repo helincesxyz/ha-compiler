@@ -1,6 +1,7 @@
 # ha-compiler
 
-A compiler for **HA** (Home Automation) — a domain-specific language for writing smart home automation rules in clean, readable syntax.
+A compiler for **HA** (Home Automation):
+A domain-specific language for writing smart home automation rules in clean, readable syntax.
 
 Every phase of the pipeline is implemented from first principles: scanner → parser → semantic analyzer → Home Assistant YAML codegen. 
 
@@ -39,7 +40,7 @@ rule "EveningWindDown" {
     then Light = ambient and Plug = off;
 }
 ```
-The long-term goal is a personal automation system I can maintain, extend, and fully own. As I add devices to my apartment (lights, sensors, air purifier, humidifier, smart thermostat)  I'll write `.ha` files for them, commit them to this repo, and compile them locally (Raspberry Pi + Home Assistant). 
+The long-term goal of this project is a personal automation system I can maintain, extend, and fully own. As I add devices to my apartment (lights, sensors, air purifier, humidifier, smart thermostat)  I'll write `.ha` files for them, commit them to this repo, and compile them locally (Raspberry Pi + Home Assistant). 
 
 ---
 
