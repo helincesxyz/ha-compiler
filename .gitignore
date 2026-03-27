@@ -4,8 +4,6 @@ lex.yy.c
 *.tab.h
 
 # Compiled binaries
-scanner
-parser
 *.out
 a.out
 
