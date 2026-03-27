@@ -1,0 +1,16 @@
+# Flex/Bison generated files
+lex.yy.c
+*.tab.c
+*.tab.h
+
+# Compiled binaries
+scanner
+parser
+*.out
+a.out
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
