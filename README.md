@@ -2,9 +2,10 @@
 
 A compiler for **HA** (Home Automation) — a domain-specific language for writing smart home automation rules in clean, readable syntax.
 
- Every phase of the pipeline is implemented from first principles: scanner → parser → semantic analyzer → Home Assistant YAML codegen. 
+Every phase of the pipeline is implemented from first principles: scanner → parser → semantic analyzer → Home Assistant YAML codegen. 
 
- Built from scratch in parallel with, and inspired by CS305 (Programming Languages) at Sabanci University, lectured by Husnu Yenigun. 
+Built from scratch in parallel with, and inspired by CS305 (Programming Languages) at Sabancı University, lectured by [Hüsnü Yenigün](https://people.sabanciuniv.edu/yenigun/).
+
 ---
 
 ## The Problem
