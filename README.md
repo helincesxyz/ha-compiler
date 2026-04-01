@@ -50,13 +50,13 @@ The long-term goal of this project is a personal automation system I can maintai
 
 ```bash
 # Scanner
-flex hw.flx
+flex scanner.flx
 gcc -o scanner lex.yy.c -lfl
 ./scanner < examples/evening.ha
 
 # Parser
-bison -d hw.y
-flex hw.flx
+bison -d parser.y
+flex scanner.flx
 gcc -o parser lex.yy.c hw.tab.c -lfl
 ./parser < examples/evening.ha
 # → OK or ERROR
